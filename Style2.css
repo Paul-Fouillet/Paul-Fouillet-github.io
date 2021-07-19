@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "fontBlack";
+    src: url(./assets/MPLUSRounded1c-Black.ttf);
+}
+@font-face {
+    font-family: "fontBold";
+    src: url(./assets/MPLUSRounded1c-Bold.ttf)
+}
+@font-face {
+    font-family: "fontReg";
+    src: url(./assets/MPLUSRounded1c-Regular.ttf)
+}
+@font-face {
+    font-family: "fontLight";
+    src: url(./assets/MPLUSRounded1c-Light.ttf)
+}
+
+h1 {
+    font-family: 'fontBlack', sans-serif;
+    color: #1F4359;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    margin: 15px;
+}
+body {
+    background: #358AC0;
+}
+header {
+    position: relative;
+    background: #1F4359 ;
+}
+img {
+    margin-left: 50%;
+    transform: translate(-50%,0)
+}
+
+.Choix {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+    background: #1F4359;
+    margin: 20px;
+    padding: 15px;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 0;
+    transform: translate(-50%,0)
+}
+
+.Boutton , .Tel , .Lien {
+    font-family: 'fontBlack', sans-serif;
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    background-color:white;
+    margin: 15px;
+    color: #1F4359;
+}
+
+.Tableau {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    padding: 20px;
+    margin: 10px;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+    background: #1F4359;
+    margin: 20px;
+    padding: 15px;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 0;
+    transform: translate(-50%,0)
+}
+
+.Articles {
+    font-family: 'fontBlack', sans-serif;
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    background-color:white;
+    margin: 15px;
+    color: #1F4359;
+}
+
+a {
+    color: #1F4359;
+    text-decoration: none;
+}
+
+span {
+    font-family: 'fontReg', sans-serif;
+}
+
+.text {
+    text-align: left;
+}
+
+@media screen and (max-width: 700px) {
+    .Vaccin , .Test ,.Renseignements , .Autres {
+        width: 100px;
+    }
+    .Choix {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: stretch;
+        background: #1F4359;
+        margin: 20px;
+        padding: 15px;
+        width: 40%;
+        margin-left: 50%;
+        transform: translate(-50%,0)
+        }
+}

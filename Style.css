@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "fontBlack";
+    src: url(./assets/MPLUSRounded1c-Black.ttf);
+}
+@font-face {
+    font-family: "fontBold";
+    src: url(./assets/MPLUSRounded1c-Bold.ttf)
+}
+@font-face {
+    font-family: "fontReg";
+    src: url(./assets/MPLUSRounded1c-Regular.ttf)
+}
+@font-face {
+    font-family: "fontLight";
+    src: url(./assets/MPLUSRounded1c-Light.ttf)
+}
+body {
+    background: #358AC0;
+}
+header {
+    position: relative;
+    background: #1F4359 ;
+    margin: 0%;
+    padding: 0;
+}
+img {
+    margin-left: 50%;
+    transform: translate(-50%,0)
+}
+
+.Choix {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+    background: #1F4359;
+    margin: 20px;
+    padding: 15px;
+    width: 50%;
+    margin-left: 50%;
+    transform: translate(-50%,0)
+}
+
+.Vaccin , .Test ,.Renseignements , .Autres {
+    font-family: 'fontBlack', sans-serif;
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    background-color:white;
+    margin: 15px;
+    color: #1F4359;
+}
+a {
+    color: #1F4359;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+    .Vaccin , .Test ,.Renseignements , .Autres {
+        width: 150px;
+    }
+    .Choix {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: stretch;
+        background: #1F4359;
+        margin: 20px;
+        padding: 15px;
+        width: 50%;
+        margin-left: 50%;
+        transform: translate(-50%,0)
+    }
+
+}
